@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
+.manage{
+  display: flex;;
+  justify-content: center;
+}
+.container_swap{
+  width: 30vw;
+  height: 47vh;
+  margin-top: 7%;
+  background-color: aliceblue;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+.container_admin{
+  width: 30vw;
+  height: 51vh;
+  background-color: aliceblue;
+  margin-top: 7%;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+.icon{
+  margin: 20px;
+  cursor: pointer;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h2{
+  margin-left: 10px;
+  color: rgb(243, 159, 173);
+}
+.connect{
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(163, 155, 155);
+  padding: 10px 10px;
+  cursor: pointer;
+  font-family: 'Fredoka', sans-serif;
+}
+.pick_token{
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+  align-items: center;
+}
+.set_rate{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+}
+.coin{
+  padding: 15px 10px;
+  width: 73%;
+  border-radius: 6px;
+  border: 1px solid rgb(218, 126, 141);
+}
+select{
+  border-radius: 6px;
+  border: none;
+  background-color:rgb(134, 194, 250);
+  color: white;
+  font-size: large;
+  font-family: 'Fredoka', sans-serif;
+}
+.select{
+  padding: 10px 10px;
+}
+.output{
+  padding: 15px 10px;
+  width: 80%;
+  border-radius: 6px;
+  border: 1px solid rgb(218, 126, 141);
+  background-color: white;
+}
+.warning{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+h4{
+  color: red;
+}
+.footer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.swap{
+  border-radius: 6px;
+  margin-right: 5%;
+  border: none;
+  color: white;
+  font-size: large;
+  background-color: pink;
+  font-family: 'Fredoka', sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.change{
+  width: 90%;
+  height: 90%;
+  border-radius: 6px;
+  margin-right: 5%;
+  border: none;
+  color: white;
+  font-size: large;
+  background-color: pink;
+  font-family: 'Fredoka', sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.swap:hover {
+  background-color: rgb(253, 181, 193);
+}
+.change:hover {
+  background-color: rgb(253, 181, 193);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.balanceOf{
+  width: 20vw;
+  height: 47vh;
+  margin-top: 7%;
+  margin-left: 5%;
+  background-color: aliceblue;
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+  opacity: 0.9;
+}
+.token_type{
+  padding: 10px 10px;
+  margin: 5%;
+}
+.label{
+  margin-left: 5%;
+}
+.input_address{
+  padding: 15px 10px;
+  margin-left: 5%;
+  width: 80%;
+  border-radius: 6px;
+  border: 1px solid rgb(218, 126, 141);
+}
+.check{
+  border-radius: 6px;
+  margin: 5%;
+  border: none;
   color: white;
+  font-size: large;
+  background-color: pink;
+  font-family: 'Fredoka', sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.check:hover {
+  background-color: rgb(253, 181, 193);
+}
+.balance{
+  padding: 15px 10px;
+  width: 80%;
+  margin-left: 5%;
+  border-radius: 6px;
+  border: 1px solid rgb(218, 126, 141);
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.query{
+  width: 25vw;
+  height: 51vh;
+  margin-top: 7%;
+  margin-left: 5%;
+  background-color: aliceblue;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  opacity: 0.9;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.set-admin{
+  border-radius: 6px;
+  margin: 5%;
+  width: 86%;
+  border: none;
+  color: white;
+  font-size: large;
+  background-color: pink;
+  font-family: 'Fredoka', sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.set-admin:hover {
+  background-color: rgb(253, 181, 193);
+}
+.get-token{
+  margin-left: 5%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
