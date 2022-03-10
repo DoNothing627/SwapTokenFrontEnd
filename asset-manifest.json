@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SwapTokenFrontEnd/static/css/main.04c233b7.css",
+    "main.js": "/SwapTokenFrontEnd/static/js/main.9602cd4d.js",
+    "static/js/787.9c068d48.chunk.js": "/SwapTokenFrontEnd/static/js/787.9c068d48.chunk.js",
+    "index.html": "/SwapTokenFrontEnd/index.html",
+    "main.04c233b7.css.map": "/SwapTokenFrontEnd/static/css/main.04c233b7.css.map",
+    "main.9602cd4d.js.map": "/SwapTokenFrontEnd/static/js/main.9602cd4d.js.map",
+    "787.9c068d48.chunk.js.map": "/SwapTokenFrontEnd/static/js/787.9c068d48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04c233b7.css",
+    "static/js/main.9602cd4d.js"
+  ]
+}
